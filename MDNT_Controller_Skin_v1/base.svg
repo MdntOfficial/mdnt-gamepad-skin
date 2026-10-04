@@ -42,7 +42,7 @@
       }
 
       .cls-11 {
-        fill: #7c3aed;
+        fill: #8b5cf6;
         opacity: 0.1;
       }
 
@@ -95,19 +95,19 @@
       }
 
       .cls-22 {
-        fill: #d946ef;
+        fill: #f66;
       }
 
       .cls-23 {
-        fill: #a855f7;
+        fill: #7cb2e8;
       }
 
       .cls-24 {
-        fill: #d946ef;
+        fill: #ff69f8;
       }
 
       .cls-25 {
-        fill: #22d3ee;
+        fill: #40e2a0;
       }
 
       .cls-26 {
@@ -377,11 +377,31 @@
     </g>
   </g>
 
-  <!-- MDNT V3 restrained accent rails; geometry/input artwork unchanged -->
-  <g id="mdnt-v3-accents" fill="none" pointer-events="none">
-    <path d="M20 485 C28 540 47 575 82 586" stroke="#7c3aed" stroke-width="4" opacity="0.55" stroke-linecap="round"/>
-    <path d="M786 485 C778 540 759 575 724 586" stroke="#22d3ee" stroke-width="4" opacity="0.60" stroke-linecap="round"/>
-    <path d="M216 121 C255 113 295 111 333 111" stroke="#22d3ee" stroke-width="2" opacity="0.38" stroke-linecap="round"/>
-    <path d="M473 111 C511 111 551 113 590 121" stroke="#a855f7" stroke-width="2" opacity="0.38" stroke-linecap="round"/>
+  <!-- MDNT V3 visible shell detailing -->
+  <g id="mdnt-v3-shell" fill="none" pointer-events="none">
+    <!-- top tech rail -->
+    <path d="M276 119 H530" stroke="#21D4E8" stroke-width="3" opacity="0.9"/>
+    <path d="M292 114 H514" stroke="#A855F7" stroke-width="2" opacity="0.7"/>
+    <!-- touchpad frame -->
+    <rect x="276" y="128" width="254" height="136" rx="14" stroke="#21D4E8" stroke-width="2.5" opacity="0.9"/>
+    <rect x="282" y="134" width="242" height="124" rx="11" stroke="#A855F7" stroke-width="1.5" opacity="0.55"/>
+    <!-- left/right grip energy seams -->
+    <path d="M58 354 C42 403 27 459 25 505 C24 535 38 557 61 569" stroke="#21D4E8" stroke-width="4" opacity="0.9"/>
+    <path d="M748 354 C764 403 779 459 781 505 C782 535 768 557 745 569" stroke="#21D4E8" stroke-width="4" opacity="0.9"/>
+    <path d="M76 370 C63 414 52 461 51 501" stroke="#A855F7" stroke-width="3" opacity="0.7"/>
+    <path d="M730 370 C743 414 754 461 755 501" stroke="#A855F7" stroke-width="3" opacity="0.7"/>
+    <!-- analog ring accents -->
+    <circle cx="274" cy="367" r="67" stroke="#21D4E8" stroke-width="3" opacity="0.7"/>
+    <circle cx="532" cy="367" r="67" stroke="#A855F7" stroke-width="3" opacity="0.7"/>
+    <!-- small tech slashes -->
+    <path d="M100 333 l32 0 M92 341 l25 0" stroke="#D946EF" stroke-width="2" opacity="0.8"/>
+    <path d="M706 333 l-32 0 M714 341 l-25 0" stroke="#D946EF" stroke-width="2" opacity="0.8"/>
   </g>
+  <g id="mdnt-v3-mark" pointer-events="none">
+    <path d="M357 195 L370 174 L386 190 L403 165 L420 190 L436 174 L449 195 L438 207 L368 207 Z" fill="#090B10" stroke="#A855F7" stroke-width="4" stroke-linejoin="round"/>
+    <path d="M370 224 L370 201 L386 217 L403 196 L420 217 L436 201 L436 224" fill="none" stroke="#21D4E8" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="403" cy="162" r="4" fill="#F5F7FF"/>
+    <path d="M349 233 H457" stroke="#21D4E8" stroke-width="2" opacity="0.8"/>
+  </g>
+
 </svg>
