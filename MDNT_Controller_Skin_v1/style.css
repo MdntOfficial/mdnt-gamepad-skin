@@ -335,3 +335,7 @@
         drop-shadow(0 0 5px rgba(33,212,232,.95))
         drop-shadow(0 0 9px rgba(168,85,247,.60)) !important;
 }
+/* MDNT — move complete controller down */
+.controller.ds4.edit {
+    top: 180px !important;
+}
