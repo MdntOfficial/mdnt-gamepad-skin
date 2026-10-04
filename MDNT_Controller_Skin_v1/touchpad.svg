@@ -10,9 +10,7 @@
       }
 
       .cls-3 {
-        fill: #0b0f17;
-        stroke: #22d3ee;
-        stroke-width: 3;
+        fill: #21d4e8;
       }
 
       .cls-4 {
@@ -46,9 +44,17 @@
   </g>
 
   <g id="mdnt-mark" opacity="0.95" pointer-events="none">
-    <path d="M95 78 L108 58 L121 73 L132 50 L143 73 L156 58 L169 78 L158 91 L106 91 Z" fill="none" stroke="#a855f7" stroke-width="5" stroke-linejoin="round"/>
-    <path d="M106 101 L106 83 L119 96 L132 80 L145 96 L158 83 L158 101" fill="none" stroke="#22d3ee" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
-    <circle cx="132" cy="48" r="3.5" fill="#f5f7ff"/>
-    <path d="M96 110 H168" stroke="#22d3ee" stroke-width="2" opacity="0.45" stroke-linecap="round"/>
+    <path d="M95 78 L108 58 L121 73 L132 50 L143 73 L156 58 L169 78 L158 91 L106 91 Z" fill="none" stroke="#a855f7" stroke-width="4" stroke-linejoin="round"/>
+    <path d="M106 101 L106 83 L119 96 L132 80 L145 96 L158 83 L158 101" fill="none" stroke="#21d4e8" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="132" cy="48" r="3" fill="#f5f7ff"/>
   </g>
+
+  <g id="mdnt-v3-touch-active" pointer-events="none">
+    <rect x="7" y="7" width="250" height="137" rx="12" fill="none" stroke="#21D4E8" stroke-width="3" opacity="0.95"/>
+    <rect x="13" y="13" width="238" height="125" rx="10" fill="none" stroke="#A855F7" stroke-width="2" opacity="0.75"/>
+    <path d="M87 76 L101 53 L117 69 L132 43 L147 69 L163 53 L177 76 L165 89 L99 89 Z" fill="#090B10" stroke="#D946EF" stroke-width="4" stroke-linejoin="round"/>
+    <path d="M100 110 L100 84 L116 101 L132 78 L148 101 L164 84 L164 110" fill="none" stroke="#21D4E8" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="132" cy="40" r="4" fill="#F5F7FF"/>
+  </g>
+
 </svg>
