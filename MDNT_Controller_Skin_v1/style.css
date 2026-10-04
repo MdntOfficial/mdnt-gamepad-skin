@@ -179,7 +179,7 @@
 .ds4.edit .stick.right {
     top: 0;
     right: 0;
-    background-position-x: -192px;
+    background-position-x: 0;
 }
 
 .ds4.edit .stick.left.pressed {
