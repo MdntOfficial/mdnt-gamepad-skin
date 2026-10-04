@@ -1,0 +1,245 @@
+.controller.custom {
+    background: url("base.svg") no-repeat;
+    width: 806px;
+    height: 598px;
+    position: relative;
+}
+
+.custom.disconnected div {
+    display: none;
+}
+
+/* L2 / R2 */
+.custom .triggers {
+    width: 588px;
+    height: 90px;
+    position: absolute;
+    left: 109px;
+    top: 0;
+}
+
+.custom .trigger {
+    width: 99px;
+    height: 90px;
+    background: url("triggers.svg") no-repeat;
+    opacity: 0;
+}
+
+.custom .trigger.left {
+    float: left;
+}
+
+.custom .trigger.right {
+    float: right;
+    background-position-x: -99px;
+}
+
+.custom .trigger.pressed {
+    opacity: 1;
+}
+
+/* L1 / R1 */
+.custom .bumpers {
+    position: absolute;
+    width: 588px;
+    height: 23px;
+    left: 109px;
+    top: 94px;
+}
+
+.custom .bumper {
+    width: 99px;
+    height: 23px;
+    background: url("bumper.svg") no-repeat;
+    opacity: 0;
+}
+
+.custom .bumper.left {
+    float: left;
+}
+
+.custom .bumper.right {
+    float: right;
+    transform: rotateY(180deg);
+}
+
+.custom .bumper.pressed {
+    opacity: 1;
+}
+
+/* TOUCHPAD */
+.custom .touchpad {
+    width: 264px;
+    height: 151px;
+    position: absolute;
+    left: 271px;
+    top: 122px;
+}
+
+.custom .touchpad.pressed {
+    background: url("touchpad.svg") no-repeat center;
+}
+
+/* SHARE / OPTIONS */
+.custom .arrows {
+    position: absolute;
+    width: 352px;
+    height: 47px;
+    top: 142px;
+    left: 227px;
+}
+
+.custom .back,
+.custom .start {
+    background: url("start.svg") no-repeat;
+    width: 28px;
+    height: 47px;
+    opacity: 0;
+}
+
+.custom .back {
+    float: left;
+}
+
+.custom .start {
+    float: right;
+    background-position: -28px 0;
+}
+
+.custom .back.pressed,
+.custom .start.pressed {
+    opacity: 1;
+}
+
+/* FACE BUTTONS */
+.custom .abxy {
+    position: absolute;
+    width: 170px;
+    height: 171px;
+    top: 159px;
+    left: 567px;
+}
+
+.custom .button {
+    position: absolute;
+    width: 55px;
+    height: 55px;
+    background: url("face.svg") no-repeat;
+}
+
+.custom .button.pressed {
+    background-position-y: -55px;
+}
+
+.custom .a {
+    background-position: 0 0;
+    bottom: 0;
+    left: 58px;
+}
+
+.custom .b {
+    background-position: -57px 0;
+    top: 58px;
+    right: 0;
+}
+
+.custom .x {
+    background-position: -113px 0;
+    top: 58px;
+    left: 0;
+}
+
+.custom .y {
+    background-position: -168px 0;
+    left: 58px;
+    top: 0;
+}
+
+/* ANALOG STICKS */
+.custom .sticks {
+    position: absolute;
+    width: 361px;
+    height: 105px;
+    top: 308px;
+    left: 228px;
+}
+
+.custom .stick {
+    position: absolute;
+    width: 94px;
+    height: 94px;
+    background: url("sticks.svg") no-repeat;
+}
+
+.custom .stick.left {
+    top: 0;
+    left: 0;
+}
+
+.custom .stick.right {
+    top: 0;
+    right: 0;
+    background-position-x: -192px;
+}
+
+.custom .stick.left.pressed {
+    background-position-x: -96px;
+}
+
+.custom .stick.right.pressed {
+    background-position-x: -192px;
+}
+
+/* D-PAD */
+.custom .dpad {
+    position: absolute;
+    width: 125px;
+    height: 126px;
+    top: 181px;
+    left: 92px;
+}
+
+.custom .face {
+    position: absolute;
+    background: url("dpad.svg") no-repeat;
+}
+
+.custom .face.up,
+.custom .face.down {
+    width: 36px;
+    height: 52px;
+}
+
+.custom .face.left,
+.custom .face.right {
+    width: 52px;
+    height: 36px;
+}
+
+.custom .face.up {
+    left: 44px;
+    top: 0;
+    background-position: -37px 0;
+}
+
+.custom .face.down {
+    left: 44px;
+    bottom: 0;
+    background-position: 0 0;
+}
+
+.custom .face.left {
+    top: 45px;
+    left: 0;
+    background-position: -74px 0;
+}
+
+.custom .face.right {
+    top: 45px;
+    right: 0;
+    background-position: -126px 0;
+}
+
+.custom .face.pressed {
+    background-position-y: -52px;
+}
