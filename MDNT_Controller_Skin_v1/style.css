@@ -243,3 +243,97 @@
 .custom .face.pressed {
     background-position-y: -52px;
 }
+/* =========================================
+   MDNT V2 — STREAM POLISH
+   ========================================= */
+
+/* Whole controller: clean depth + cyan/purple aura */
+.controller.custom {
+    filter:
+        drop-shadow(0 8px 12px rgba(0, 0, 0, 0.65))
+        drop-shadow(0 0 7px rgba(33, 212, 232, 0.32))
+        drop-shadow(0 0 13px rgba(168, 85, 247, 0.18));
+}
+
+/* Smooth input transitions */
+.custom .button,
+.custom .face,
+.custom .bumper,
+.custom .trigger,
+.custom .stick,
+.custom .touchpad,
+.custom .back,
+.custom .start {
+    transition:
+        filter 80ms ease-out,
+        transform 80ms ease-out,
+        opacity 80ms ease-out;
+}
+
+/* FACE BUTTON PRESS — cyan core + purple outer glow */
+.custom .button.pressed {
+    filter:
+        brightness(1.35)
+        drop-shadow(0 0 4px rgba(255,255,255,.85))
+        drop-shadow(0 0 8px rgba(33,212,232,.95))
+        drop-shadow(0 0 13px rgba(168,85,247,.75));
+}
+
+/* D-PAD PRESS */
+.custom .face.pressed {
+    filter:
+        brightness(1.45)
+        drop-shadow(0 0 5px rgba(33,212,232,.95))
+        drop-shadow(0 0 10px rgba(168,85,247,.65));
+}
+
+/* BUMPERS */
+.custom .bumper.pressed {
+    opacity: 1;
+    filter:
+        brightness(1.45)
+        drop-shadow(0 0 5px rgba(33,212,232,.95))
+        drop-shadow(0 0 10px rgba(168,85,247,.65));
+}
+
+/* TRIGGERS */
+.custom .trigger.pressed {
+    opacity: 1;
+    filter:
+        brightness(1.4)
+        drop-shadow(0 0 6px rgba(217,70,239,.9))
+        drop-shadow(0 0 11px rgba(168,85,247,.7));
+}
+
+/* ANALOG STICKS — subtle always-on definition */
+.custom .stick {
+    filter:
+        drop-shadow(0 2px 3px rgba(0,0,0,.75))
+        drop-shadow(0 0 3px rgba(33,212,232,.30));
+}
+
+/* L3 / R3 */
+.custom .stick.pressed {
+    filter:
+        brightness(1.4)
+        drop-shadow(0 0 5px rgba(255,255,255,.8))
+        drop-shadow(0 0 9px rgba(33,212,232,.95))
+        drop-shadow(0 0 14px rgba(217,70,239,.65));
+}
+
+/* TOUCHPAD PRESS */
+.custom .touchpad.pressed {
+    filter:
+        brightness(1.3)
+        drop-shadow(0 0 6px rgba(168,85,247,.9))
+        drop-shadow(0 0 12px rgba(33,212,232,.6));
+}
+
+/* SHARE + OPTIONS */
+.custom .back.pressed,
+.custom .start.pressed {
+    opacity: 1;
+    filter:
+        brightness(1.4)
+        drop-shadow(0 0 5px rgba(33,212,232,.9));
+}
