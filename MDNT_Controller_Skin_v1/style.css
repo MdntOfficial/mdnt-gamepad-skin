@@ -245,99 +245,93 @@
 }
 /* =========================================
    MDNT V2 — STREAM POLISH
+   GPV PS4 EDIT MODE
    ========================================= */
 
-/* Whole controller: clean depth + cyan/purple aura */
-.controller.custom {
+/* CONTROLLER — subtle MDNT aura */
+.controller.ds4.edit {
     filter:
-        drop-shadow(0 8px 12px rgba(0, 0, 0, 0.65))
-        drop-shadow(0 0 7px rgba(33, 212, 232, 0.32))
-        drop-shadow(0 0 13px rgba(168, 85, 247, 0.18));
+        drop-shadow(0 7px 10px rgba(0, 0, 0, 0.70))
+        drop-shadow(0 0 5px rgba(33, 212, 232, 0.45))
+        drop-shadow(0 0 10px rgba(168, 85, 247, 0.28)) !important;
 }
 
-/* Smooth input transitions */
-.custom .button,
-.custom .face,
-.custom .bumper,
-.custom .trigger,
-.custom .stick,
-.custom .touchpad,
-.custom .back,
-.custom .start {
+/* FAST, CLEAN INPUT RESPONSE */
+.ds4.edit .button,
+.ds4.edit .face,
+.ds4.edit .bumper,
+.ds4.edit .trigger,
+.ds4.edit .stick,
+.ds4.edit .touchpad,
+.ds4.edit .back,
+.ds4.edit .start {
     transition:
-        filter 80ms ease-out,
-        transform 80ms ease-out,
-        opacity 80ms ease-out;
+        filter 70ms ease-out,
+        opacity 70ms ease-out;
 }
 
-/* FACE BUTTON PRESS — cyan core + purple outer glow */
-.custom .button.pressed {
+/* X / O / SQUARE / TRIANGLE */
+.ds4.edit .button.pressed {
     filter:
-        brightness(1.35)
-        drop-shadow(0 0 4px rgba(255,255,255,.85))
-        drop-shadow(0 0 8px rgba(33,212,232,.95))
-        drop-shadow(0 0 13px rgba(168,85,247,.75));
+        brightness(1.45)
+        drop-shadow(0 0 3px rgba(255,255,255,.95))
+        drop-shadow(0 0 7px rgba(33,212,232,.95))
+        drop-shadow(0 0 12px rgba(168,85,247,.80)) !important;
 }
 
-/* D-PAD PRESS */
-.custom .face.pressed {
+/* D-PAD */
+.ds4.edit .face.pressed {
+    filter:
+        brightness(1.40)
+        drop-shadow(0 0 5px rgba(33,212,232,.95))
+        drop-shadow(0 0 10px rgba(168,85,247,.70)) !important;
+}
+
+/* L1 / R1 */
+.ds4.edit .bumper.pressed {
     filter:
         brightness(1.45)
         drop-shadow(0 0 5px rgba(33,212,232,.95))
-        drop-shadow(0 0 10px rgba(168,85,247,.65));
+        drop-shadow(0 0 10px rgba(168,85,247,.70)) !important;
 }
 
-/* BUMPERS */
-.custom .bumper.pressed {
-    opacity: 1;
+/* L2 / R2 */
+.ds4.edit .trigger.pressed {
     filter:
         brightness(1.45)
-        drop-shadow(0 0 5px rgba(33,212,232,.95))
-        drop-shadow(0 0 10px rgba(168,85,247,.65));
+        drop-shadow(0 0 5px rgba(217,70,239,.95))
+        drop-shadow(0 0 11px rgba(168,85,247,.75)) !important;
 }
 
-/* TRIGGERS */
-.custom .trigger.pressed {
-    opacity: 1;
+/* ANALOG STICKS */
+.ds4.edit .stick {
     filter:
-        brightness(1.4)
-        drop-shadow(0 0 6px rgba(217,70,239,.9))
-        drop-shadow(0 0 11px rgba(168,85,247,.7));
-}
-
-/* ANALOG STICKS — subtle always-on definition */
-.custom .stick {
-    filter:
-        drop-shadow(0 2px 3px rgba(0,0,0,.75))
-        drop-shadow(0 0 3px rgba(33,212,232,.30));
+        drop-shadow(0 2px 3px rgba(0,0,0,.80))
+        drop-shadow(0 0 3px rgba(33,212,232,.38));
 }
 
 /* L3 / R3 */
-.custom .stick.pressed {
+.ds4.edit .stick.pressed {
     filter:
-        brightness(1.4)
-        drop-shadow(0 0 5px rgba(255,255,255,.8))
-        drop-shadow(0 0 9px rgba(33,212,232,.95))
-        drop-shadow(0 0 14px rgba(217,70,239,.65));
+        brightness(1.45)
+        drop-shadow(0 0 4px rgba(255,255,255,.90))
+        drop-shadow(0 0 8px rgba(33,212,232,.95))
+        drop-shadow(0 0 13px rgba(217,70,239,.70)) !important;
 }
 
-/* TOUCHPAD PRESS */
-.custom .touchpad.pressed {
+/* TOUCHPAD */
+.ds4.edit .touchpad.pressed {
     filter:
-        brightness(1.3)
-        drop-shadow(0 0 6px rgba(168,85,247,.9))
-        drop-shadow(0 0 12px rgba(33,212,232,.6));
+        brightness(1.35)
+        drop-shadow(0 0 6px rgba(168,85,247,.95))
+        drop-shadow(0 0 11px rgba(33,212,232,.70)) !important;
 }
 
-/* SHARE + OPTIONS */
-.custom .back.pressed,
-.custom .start.pressed {
-    opacity: 1;
+/* SHARE / OPTIONS */
+.ds4.edit .back.pressed,
+.ds4.edit .start.pressed {
     filter:
-        brightness(1.4)
-        drop-shadow(0 0 5px rgba(33,212,232,.9));
-}
-/* MDNT TEST — SHOULD BE EXTREMELY OBVIOUS */
-.controller.ds4.edit {
-    filter: drop-shadow(0 0 30px #00ffff) !important;
+        brightness(1.45)
+        drop-shadow(0 0 5px rgba(33,212,232,.95))
+        drop-shadow(0 0 9px rgba(168,85,247,.60)) !important;
 }
