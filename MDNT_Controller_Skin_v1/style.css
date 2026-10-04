@@ -1,5 +1,5 @@
 .controller.custom {
-    background: url("base.svg") no-repeat;
+    background: url("base.svg?v=3") no-repeat;
     width: 806px;
     height: 598px;
     position: relative;
@@ -77,7 +77,7 @@
 }
 
 .custom .touchpad.pressed {
-    background: url("touchpad.svg") no-repeat center;
+    background: url("touchpad.svg?v=3") no-repeat center;
 }
 
 /* SHARE / OPTIONS */
