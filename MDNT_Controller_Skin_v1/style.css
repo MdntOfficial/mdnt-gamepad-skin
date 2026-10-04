@@ -251,9 +251,9 @@
 /* CONTROLLER — subtle MDNT aura */
 .controller.ds4.edit {
     filter:
-        drop-shadow(0 7px 10px rgba(0, 0, 0, 0.70))
-        drop-shadow(0 0 5px rgba(33, 212, 232, 0.45))
-        drop-shadow(0 0 10px rgba(168, 85, 247, 0.28)) !important;
+        drop-shadow(0 8px 10px rgba(0, 0, 0, 0.85))
+        drop-shadow(0 0 4px rgba(0, 229, 255, 0.50))
+        drop-shadow(0 0 8px rgba(139, 92, 246, 0.30)) !important;
 }
 
 /* FAST, CLEAN INPUT RESPONSE */
