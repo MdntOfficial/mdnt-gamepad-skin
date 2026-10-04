@@ -338,6 +338,6 @@
         drop-shadow(0 0 5px rgba(33,212,232,.9));
 }
 /* MDNT TEST — SHOULD BE EXTREMELY OBVIOUS */
-.controller.custom {
+.controller.ds4.edit {
     filter: drop-shadow(0 0 30px #00ffff) !important;
 }
