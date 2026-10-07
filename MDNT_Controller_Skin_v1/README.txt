@@ -1,13 +1,15 @@
-MDNT Controller Skin v1
+MDNT Official — Jrdn-style Controller Overlay
 
-Palette:
-- Gunmetal / matte black shell
-- Cyan #21D4E8 primary edge accents
-- Purple #A855F7 secondary accents
-- Magenta #D946EF selective face-button accents
-- White #F5F7FF markings
+Distressed silver/white and black shell, cyan/magenta graffiti, MDNT brush-lettered touchpad and right-grip crown.
 
-Files preserve the original SVG dimensions, viewBoxes, paths, and class structure.
-Touchpad includes a vector MDNT crown/M mark.
+The shell is a static transparent WebP. D-pad, face buttons and sticks remain separate SVG input layers. Control positions are measured against this shell; do not mix it with the older shell using these coordinates. Neutral sticks use separate cyan (left) and magenta (right) frames. GPV continues to control input mappings, trigger opacity, stick margins and rotation.
 
-Included: base.svg, sticks.svg, face.svg, dpad.svg, bumper.svg, triggers.svg, touchpad.svg, start.svg
+CSS URL (Edit CSS URL, PS4 skin):
+https://mdntofficial.github.io/mdnt-gamepad-skin/MDNT_Controller_Skin_v1/style.css?v=20261007-jrdn1
+
+Keep your existing GPV controller/player settings. Change only the Edit CSS URL or its cache version, then refresh the OBS browser source. The existing 300px vertical placement is preserved.
+
+Open preview.html in a browser to simulate idle, pressed inputs and stick motion. It is a visual simulation, not a live gamepad viewer.
+
+Source artwork: supplied Jrdn-style MDNT reference; shell asset created with built-in image generation using the previous shell as an alignment reference.
+Original base.svg and touchpad.svg remain in the repository for historical reference; the new CSS uses shell-jrdn.webp.

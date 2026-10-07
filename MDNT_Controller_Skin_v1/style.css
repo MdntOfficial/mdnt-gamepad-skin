@@ -1,8 +1,9 @@
 .controller.ds4.edit {
-    background: url("base.svg?v=24") no-repeat;
+    background: url("shell-jrdn.webp?v=20261007-jrdn1") no-repeat;
     width: 806px;
-    height: 598px;
+    height: 599px;
     position: relative;
+    background-size: 806px 599px;
 }
 
 .ds4.edit.disconnected div {
@@ -11,17 +12,17 @@
 
 /* L2 / R2 */
 .ds4.edit .triggers {
-    width: 588px;
+    width: 558px;
     height: 90px;
     position: absolute;
-    left: 109px;
+    left: 122px;
     top: 0;
 }
 
 .ds4.edit .trigger {
     width: 99px;
     height: 90px;
-    background: url("triggers.svg") no-repeat;
+    background: url("triggers.svg?v=20261007-jrdn1") no-repeat;
     opacity: 0;
 }
 
@@ -41,16 +42,16 @@
 /* L1 / R1 */
 .ds4.edit .bumpers {
     position: absolute;
-    width: 588px;
+    width: 577px;
     height: 23px;
-    left: 109px;
-    top: 94px;
+    left: 113px;
+    top: 96px;
 }
 
 .ds4.edit .bumper {
     width: 99px;
     height: 23px;
-    background: url("bumper.svg") no-repeat;
+    background: url("bumper.svg?v=20261007-jrdn1") no-repeat;
     opacity: 0;
 }
 
@@ -69,29 +70,32 @@
 
 /* TOUCHPAD */
 .ds4.edit .touchpad {
-    width: 264px;
-    height: 151px;
+    width: 256px;
+    height: 145px;
     position: absolute;
-    left: 271px;
-    top: 122px;
+    left: 277px;
+    top: 115px;
 }
 
 .ds4.edit .touchpad.pressed {
-    background: url("touchpad.svg?v=4") no-repeat center;
+    background: rgba(33,212,232,.09);
+    border: 2px solid #50e5f0;
+    border-radius: 10px;
+    box-sizing: border-box;
 }
 
 /* SHARE / OPTIONS */
 .ds4.edit .arrows {
     position: absolute;
-    width: 352px;
+    width: 338px;
     height: 47px;
-    top: 142px;
-    left: 227px;
+    top: 133px;
+    left: 234px;
 }
 
 .ds4.edit .back,
 .ds4.edit .start {
-    background: url("start.svg") no-repeat;
+    background: url("start.svg?v=20261007-jrdn1") no-repeat;
     width: 28px;
     height: 47px;
     opacity: 0;
@@ -103,7 +107,7 @@
 
 .ds4.edit .start {
     float: right;
-    background-position: -28px 0;
+    background-position: 0 0;
 }
 
 .ds4.edit .back.pressed,
@@ -114,17 +118,17 @@
 /* FACE BUTTONS */
 .ds4.edit .abxy {
     position: absolute;
-    width: 170px;
-    height: 171px;
-    top: 159px;
-    left: 567px;
+    width: 156px;
+    height: 152px;
+    top: 154px;
+    left: 568px;
 }
 
 .ds4.edit .button {
     position: absolute;
     width: 55px;
     height: 55px;
-    background: url("face.svg") no-repeat;
+    background: url("face.svg?v=20261007-jrdn1") no-repeat;
 }
 
 .ds4.edit .button.pressed {
@@ -134,41 +138,41 @@
 .ds4.edit .a {
     background-position: 0 0;
     bottom: 0;
-    left: 58px;
+    left: 51px;
 }
 
 .ds4.edit .b {
     background-position: -57px 0;
-    top: 58px;
+    top: 49px;
     right: 0;
 }
 
 .ds4.edit .x {
     background-position: -113px 0;
-    top: 58px;
+    top: 49px;
     left: 0;
 }
 
 .ds4.edit .y {
     background-position: -168px 0;
-    left: 58px;
+    left: 51px;
     top: 0;
 }
 
 /* ANALOG STICKS */
 .ds4.edit .sticks {
     position: absolute;
-    width: 361px;
+    width: 339px;
     height: 105px;
-    top: 308px;
-    left: 228px;
+    top: 288px;
+    left: 233.5px;
 }
 
 .ds4.edit .stick {
     position: absolute;
     width: 94px;
     height: 94px;
-    background: url("sticks.svg") no-repeat;
+    background: url("sticks.svg?v=20261007-jrdn1") no-repeat;
 }
 
 .ds4.edit .stick.left {
@@ -179,7 +183,7 @@
 .ds4.edit .stick.right {
     top: 0;
     right: 0;
-    background-position-x: 0;
+    background-position-x: -288px;
 }
 
 .ds4.edit .stick.left.pressed {
@@ -193,15 +197,15 @@
 /* D-PAD */
 .ds4.edit .dpad {
     position: absolute;
-    width: 125px;
-    height: 126px;
-    top: 181px;
-    left: 92px;
+    width: 134px;
+    height: 135px;
+    top: 159px;
+    left: 95px;
 }
 
 .ds4.edit .face {
     position: absolute;
-    background: url("dpad.svg") no-repeat;
+    background: url("dpad.svg?v=20261007-jrdn1") no-repeat;
 }
 
 .ds4.edit .face.up,
@@ -217,19 +221,19 @@
 }
 
 .ds4.edit .face.up {
-    left: 44px;
+    left: 50px;
     top: 0;
     background-position: -37px 0;
 }
 
 .ds4.edit .face.down {
-    left: 44px;
+    left: 50px;
     bottom: 0;
     background-position: 0 0;
 }
 
 .ds4.edit .face.left {
-    top: 45px;
+    top: 51px;
     left: 0;
     background-position: -74px 0;
 }
@@ -243,99 +247,12 @@
 .ds4.edit .face.pressed {
     background-position-y: -52px;
 }
-/* =========================================
-   MDNT V2 — STREAM POLISH
-   GPV PS4 EDIT MODE
-   ========================================= */
-
-/* CONTROLLER — subtle MDNT aura */
-.controller.ds4.edit {
-    filter:
-        drop-shadow(0 8px 10px rgba(0, 0, 0, 0.85))
-        drop-shadow(0 0 4px rgba(0, 229, 255, 0.50))
-        drop-shadow(0 0 8px rgba(139, 92, 246, 0.30)) !important;
+/* Jrdn-style shell; GPV owns the stick margin/rotation and trigger opacity. */
+.controller.ds4.edit { top: 300px !important; filter: drop-shadow(0 5px 5px rgba(0,0,0,.65)); }
+.ds4.edit .stick { filter: drop-shadow(0 3px 2px rgba(0,0,0,.85)); }
+.ds4.edit .button.pressed, .ds4.edit .face.pressed,
+.ds4.edit .bumper.pressed, .ds4.edit .back.pressed, .ds4.edit .start.pressed {
+    filter: brightness(1.25) drop-shadow(0 0 3px rgba(33,212,232,.65));
 }
-
-/* FAST, CLEAN INPUT RESPONSE */
-.ds4.edit .button,
-.ds4.edit .face,
-.ds4.edit .bumper,
-.ds4.edit .trigger,
-.ds4.edit .stick,
-.ds4.edit .touchpad,
-.ds4.edit .back,
-.ds4.edit .start {
-    transition:
-        filter 70ms ease-out,
-        opacity 70ms ease-out;
-}
-
-/* X / O / SQUARE / TRIANGLE */
-.ds4.edit .button.pressed {
-    filter:
-        brightness(1.45)
-        drop-shadow(0 0 3px rgba(255,255,255,.95))
-        drop-shadow(0 0 7px rgba(33,212,232,.95))
-        drop-shadow(0 0 12px rgba(168,85,247,.80)) !important;
-}
-
-/* D-PAD */
-.ds4.edit .face.pressed {
-    filter:
-        brightness(1.40)
-        drop-shadow(0 0 5px rgba(33,212,232,.95))
-        drop-shadow(0 0 10px rgba(168,85,247,.70)) !important;
-}
-
-/* L1 / R1 */
-.ds4.edit .bumper.pressed {
-    filter:
-        brightness(1.45)
-        drop-shadow(0 0 5px rgba(33,212,232,.95))
-        drop-shadow(0 0 10px rgba(168,85,247,.70)) !important;
-}
-
-/* L2 / R2 */
-.ds4.edit .trigger.pressed {
-    filter:
-        brightness(1.45)
-        drop-shadow(0 0 5px rgba(217,70,239,.95))
-        drop-shadow(0 0 11px rgba(168,85,247,.75)) !important;
-}
-
-/* ANALOG STICKS */
-.ds4.edit .stick {
-    filter:
-        drop-shadow(0 2px 3px rgba(0,0,0,.80))
-        drop-shadow(0 0 3px rgba(33,212,232,.38));
-}
-
-/* L3 / R3 */
-.ds4.edit .stick.pressed {
-    filter:
-        brightness(1.45)
-        drop-shadow(0 0 4px rgba(255,255,255,.90))
-        drop-shadow(0 0 8px rgba(33,212,232,.95))
-        drop-shadow(0 0 13px rgba(217,70,239,.70)) !important;
-}
-
-/* TOUCHPAD */
-.ds4.edit .touchpad.pressed {
-    filter:
-        brightness(1.35)
-        drop-shadow(0 0 6px rgba(168,85,247,.95))
-        drop-shadow(0 0 11px rgba(33,212,232,.70)) !important;
-}
-
-/* SHARE / OPTIONS */
-.ds4.edit .back.pressed,
-.ds4.edit .start.pressed {
-    filter:
-        brightness(1.45)
-        drop-shadow(0 0 5px rgba(33,212,232,.95))
-        drop-shadow(0 0 9px rgba(168,85,247,.60)) !important;
-}
-/* MDNT — move complete controller down */
-.controller.ds4.edit {
-    top: 300px !important;
-}
+.ds4.edit .stick.left.pressed { filter: brightness(1.15) drop-shadow(0 0 4px rgba(33,212,232,.6)); }
+.ds4.edit .stick.right.pressed { filter: brightness(1.15) drop-shadow(0 0 4px rgba(217,70,239,.6)); }
