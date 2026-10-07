@@ -182,8 +182,8 @@
 
 .ds4.edit .stick.right {
     top: 0;
-    left: auto;
-    right: 0;
+    left: 245px;
+    right: auto;
     background-position-x: -288px;
 }
 
