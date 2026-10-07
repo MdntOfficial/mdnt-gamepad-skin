@@ -195,7 +195,7 @@
     background-position-x: -192px;
 }
 
-/* D-PAD */
+/* D-PAD — caps enlarged 8% around their measured socket centers. */
 .ds4.edit .dpad {
     position: absolute;
     width: 134px;
@@ -203,51 +203,18 @@
     top: 159px;
     left: 95px;
 }
-
 .ds4.edit .face {
     position: absolute;
     background: url("dpad.svg?v=20261007-jrdn1") no-repeat;
+    background-size: 192.8124px 112.2444px;
 }
-
-.ds4.edit .face.up,
-.ds4.edit .face.down {
-    width: 36px;
-    height: 52px;
-}
-
-.ds4.edit .face.left,
-.ds4.edit .face.right {
-    width: 52px;
-    height: 36px;
-}
-
-.ds4.edit .face.up {
-    left: 50px;
-    top: 0;
-    background-position: -37px 0;
-}
-
-.ds4.edit .face.down {
-    left: 50px;
-    bottom: 0;
-    background-position: 0 0;
-}
-
-.ds4.edit .face.left {
-    top: 51px;
-    left: 0;
-    background-position: -74px 0;
-}
-
-.ds4.edit .face.right {
-    top: 51px;
-    right: 0;
-    background-position: -126px 0;
-}
-
-.ds4.edit .face.pressed {
-    background-position-y: -52px;
-}
+.ds4.edit .face.up, .ds4.edit .face.down { width: 38.88px; height: 56.16px; }
+.ds4.edit .face.left, .ds4.edit .face.right { width: 56.16px; height: 38.88px; }
+.ds4.edit .face.up { left: 48.56px; top: -2.58px; background-position: -39.96px 0; }
+.ds4.edit .face.down { left: 48.56px; top: 80.92px; bottom: auto; background-position: 0 0; }
+.ds4.edit .face.left { left: -2.08px; top: 49.56px; background-position: -79.92px 0; }
+.ds4.edit .face.right { right: -2.08px; left: auto; top: 49.56px; background-position: -136.08px 0; }
+.ds4.edit .face.pressed { background-position-y: -56.16px; }
 /* Jrdn-style shell; GPV owns the stick margin/rotation and trigger opacity. */
 .controller.ds4.edit { top: 300px !important; filter: drop-shadow(0 5px 5px rgba(0,0,0,.65)); }
 .ds4.edit .stick { filter: drop-shadow(0 3px 2px rgba(0,0,0,.85)); }
