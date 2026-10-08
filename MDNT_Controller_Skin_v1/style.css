@@ -2,7 +2,7 @@
 .controller.ds4.edit{width:806px;height:599px;position:relative;background:url('shell-champagne-pearl-v2.png?v=2') center center/806px 599px no-repeat;top:300px!important;filter:drop-shadow(0 7px 8px rgba(0,0,0,.6))}
 .ds4.edit.disconnected div{display:none}
 /* Analog wells in v2 shell: centers (273,337) and (533,337) */
-.ds4.edit .sticks{position:absolute;width:354px;height:105px;left:226px;top:290px}
+.ds4.edit .sticks{position:absolute;width:354px;height:105px;left:221px;top:290px}
 .ds4.edit .stick{position:absolute;width:94px;height:94px;background:url('sticks.svg?v=cp1') no-repeat;filter:grayscale(1) sepia(1) saturate(2) hue-rotate(350deg) drop-shadow(0 2px 2px rgba(0,0,0,.8))}
 .ds4.edit .stick.left{left:0;top:0;background-position:0 0}
 .ds4.edit .stick.right{left:260px;right:auto;top:0;background-position:0 0}
