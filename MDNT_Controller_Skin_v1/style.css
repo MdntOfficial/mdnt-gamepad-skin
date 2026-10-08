@@ -2,7 +2,7 @@
 .controller.ds4.edit{width:806px;height:599px;position:relative;background:url('shell-champagne-pearl-v2.png?v=2') center center/806px 599px no-repeat;top:300px!important;filter:drop-shadow(0 7px 8px rgba(0,0,0,.6))}
 .ds4.edit.disconnected div{display:none}
 /* Analog wells in v2 shell: centers (273,337) and (533,337) */
-.ds4.edit .sticks{position:absolute;width:354px;height:105px;left:221px;top:290px}
+.ds4.edit .sticks{position:absolute;width:354px;height:105px;left:226px;top:290px}
 .ds4.edit .stick{position:absolute;width:94px;height:94px;background:url('sticks.svg?v=cp1') no-repeat;filter:grayscale(1) sepia(1) saturate(2) hue-rotate(350deg) drop-shadow(0 2px 2px rgba(0,0,0,.8))}
 .ds4.edit .stick.left{left:0;top:0;background-position:0 0}
 .ds4.edit .stick.right{left:260px;right:auto;top:0;background-position:0 0}
@@ -34,8 +34,10 @@
 .ds4.edit .back.pressed,.ds4.edit .start.pressed{opacity:1;background:rgba(241,213,171,.35);box-shadow:0 0 7px rgba(255,224,183,.8)}
 
 
-/* Hide the duplicate analog rings from the moving sprite: retain the shell's gold socket rings. */
-.controller.ds4.edit .sticks .stick { width:94px !important;height:94px !important;background-image:none !important;filter:none !important; }
-.controller.ds4.edit .sticks .stick::after {content:'';position:absolute;left:18px;top:18px;width:58px;height:58px;border-radius:50%;background:radial-gradient(circle at 38% 30%,#38302a 0%,#18130f 54%,#090806 100%);box-shadow:inset 0 0 0 2px #5c452a,inset 0 0 0 5px #1a1410,inset 0 0 8px 4px #080706,0 1px 3px #000;pointer-events:none;}
-.controller.ds4.edit .sticks .stick.left{left:0px !important;top:0px !important;right:auto !important}
-.controller.ds4.edit .sticks .stick.right{left:260px !important;top:0px !important;right:auto !important}
+
+/* Precisely centered analog caps over the two 806x599 shell wells. */
+.controller.ds4.edit .sticks{left:226px!important;top:290px!important;width:354px!important;height:105px!important}
+.controller.ds4.edit .sticks .stick{width:94px!important;height:94px!important;background-image:none!important;filter:none!important;position:absolute!important}
+.controller.ds4.edit .sticks .stick.left{left:0!important;right:auto!important;top:0!important}
+.controller.ds4.edit .sticks .stick.right{left:260px!important;right:auto!important;top:0!important}
+.controller.ds4.edit .sticks .stick::after{content:'';position:absolute;left:18px;top:18px;width:58px;height:58px;border-radius:50%;background:radial-gradient(circle at 38% 30%,#38302a 0%,#18130f 54%,#090806 100%);box-shadow:inset 0 0 0 2px #5c452a,inset 0 0 0 5px #1a1410,inset 0 0 8px 4px #080706,0 1px 3px #000;pointer-events:none}
