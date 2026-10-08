@@ -1,0 +1,69 @@
+/* MDNT OFFICIAL — CHAMPAGNE PEARL / GPV PS4 skin */
+.controller.ds4.edit {
+  width:806px; height:599px; position:relative;
+  background: url("shell-champagne-pearl.png?v=cp1") no-repeat;
+  background-size:806px 599px;
+  top:300px !important;
+  filter:drop-shadow(0 7px 8px rgba(0,0,0,.60));
+}
+.ds4.edit.disconnected div {display:none;}
+/* GPV controls remain live; all coordinates are matched to the artwork. */
+.ds4.edit .sticks {position:absolute; width:339px;height:105px;left:233.5px;top:270px;}
+.ds4.edit .stick {
+  position:absolute;width:94px;height:94px;
+  background:url("sticks.svg?v=cp1") no-repeat;
+  filter:drop-shadow(0 2px 2px rgba(0,0,0,.8));
+}
+.ds4.edit .stick.left {left:0;top:0;background-position:0 0;}
+.ds4.edit .stick.right {left:245px;right:auto;top:0;background-position:-288px 0;}
+.ds4.edit .stick.left.pressed {background-position:-96px 0;filter:drop-shadow(0 0 5px #DCC2A0);}
+.ds4.edit .stick.right.pressed {background-position:-192px 0;filter:drop-shadow(0 0 5px #DCC2A0);}
+/* The face buttons are printed in the shell; pressed highlights are transparent and local. */
+.ds4.edit .abxy {position:absolute;width:156px;height:152px;top:160px;left:568px;}
+.ds4.edit .button {position:absolute;width:55px;height:55px;background:none;border-radius:50%;box-sizing:border-box;}
+.ds4.edit .a {bottom:0;left:51px;}
+.ds4.edit .b {top:49px;right:0;}
+.ds4.edit .x {top:49px;left:0;}
+.ds4.edit .y {left:51px;top:0;}
+.ds4.edit .button.pressed {
+  background:radial-gradient(circle,rgba(255,238,204,.35) 0%,rgba(223,183,122,.19) 45%,transparent 73%);
+  box-shadow:0 0 10px 1px rgba(246,213,164,.65),inset 0 0 10px rgba(255,238,212,.30);
+}
+/* D-pad directions: preserve exact socket positions, illuminate only the pressed cap. */
+.ds4.edit .dpad {position:absolute;width:134px;height:135px;top:159px;left:95px;}
+.ds4.edit .face {position:absolute;background:none;box-sizing:border-box;border-radius:11px;}
+.ds4.edit .face.up,.ds4.edit .face.down {width:38.88px;height:56.16px;}
+.ds4.edit .face.left,.ds4.edit .face.right {width:56.16px;height:38.88px;}
+.ds4.edit .face.up {left:48.56px;top:-2.58px;}
+.ds4.edit .face.down {left:48.56px;top:80.92px;bottom:auto;}
+.ds4.edit .face.left {left:-2.08px;top:49.56px;}
+.ds4.edit .face.right {right:-2.08px;left:auto;top:49.56px;}
+.ds4.edit .face.pressed {
+  background:rgba(241,211,165,.19);
+  box-shadow:0 0 9px rgba(250,219,176,.70),inset 0 0 8px rgba(255,233,200,.32);
+}
+/* Shoulder buttons: reference artwork remains visible; pressed states illuminate in place. */
+.ds4.edit .triggers {position:absolute;width:558px;height:90px;left:122px;top:0;}
+.ds4.edit .trigger {width:99px;height:90px;opacity:0;background:none;}
+.ds4.edit .trigger.left {float:left;}
+.ds4.edit .trigger.right {float:right;}
+.ds4.edit .trigger.pressed {opacity:1;filter:drop-shadow(0 0 5px #DCC2A0);}
+.ds4.edit .bumpers {position:absolute;width:577px;height:23px;left:113px;top:96px;}
+.ds4.edit .bumper {width:99px;height:23px;opacity:0;background:none;border-radius:15px;}
+.ds4.edit .bumper.left {float:left;}
+.ds4.edit .bumper.right {float:right;}
+.ds4.edit .bumper.pressed {opacity:1;background:rgba(236,200,151,.5);box-shadow:0 0 9px #DCC2A0;}
+/* Touchpad interaction precisely follows the visible reference panel. */
+.ds4.edit .touchpad {position:absolute;width:276px;height:132px;left:265px;top:125px;box-sizing:border-box;}
+.ds4.edit .touchpad.pressed {
+  border:2px solid rgba(247,221,178,.8);border-radius:15px;
+  box-shadow:0 0 11px rgba(243,205,153,.75),inset 0 0 12px rgba(250,219,176,.16);
+}
+/* Share and Options — subtle pearl highlights. */
+.ds4.edit .arrows {position:absolute;width:338px;height:47px;top:133px;left:234px;}
+.ds4.edit .back,.ds4.edit .start {width:28px;height:47px;opacity:0;background:none;border-radius:14px;}
+.ds4.edit .back {float:left;}
+.ds4.edit .start {float:right;}
+.ds4.edit .back.pressed,.ds4.edit .start.pressed {
+  opacity:1;background:rgba(241,213,171,.35);box-shadow:0 0 7px rgba(255,224,183,.8);
+}
