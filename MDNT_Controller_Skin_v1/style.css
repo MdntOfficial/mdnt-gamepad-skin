@@ -33,7 +33,9 @@
 .ds4.edit .back{float:left}.ds4.edit .start{float:right}
 .ds4.edit .back.pressed,.ds4.edit .start.pressed{opacity:1;background:rgba(241,213,171,.35);box-shadow:0 0 7px rgba(255,224,183,.8)}
 
-/* MDNT analog alignment override: explicit coordinates, bypass GPV default stick rules */
-.controller.ds4.edit .sticks { left:221px !important; top:290px !important; width:354px !important; height:105px !important; }
-.controller.ds4.edit .sticks .stick.left { left:0px !important; right:auto !important; top:0px !important; }
-.controller.ds4.edit .sticks .stick.right { left:260px !important; right:auto !important; top:0px !important; }
+
+/* Hide the duplicate analog rings from the moving sprite: retain the shell's gold socket rings. */
+.controller.ds4.edit .sticks .stick { width:94px !important;height:94px !important;background-image:none !important;filter:none !important; }
+.controller.ds4.edit .sticks .stick::after {content:'';position:absolute;left:18px;top:18px;width:58px;height:58px;border-radius:50%;background:radial-gradient(circle at 38% 30%,#38302a 0%,#18130f 54%,#090806 100%);box-shadow:inset 0 0 0 2px #5c452a,inset 0 0 0 5px #1a1410,inset 0 0 8px 4px #080706,0 1px 3px #000;pointer-events:none;}
+.controller.ds4.edit .sticks .stick.left{left:0px !important;top:0px !important;right:auto !important}
+.controller.ds4.edit .sticks .stick.right{left:260px !important;top:0px !important;right:auto !important}
