@@ -5,9 +5,9 @@
 .ds4.edit .sticks{position:absolute;width:354px;height:105px;left:226px;top:290px}
 .ds4.edit .stick{position:absolute;width:94px;height:94px;background:url('sticks.svg?v=cp1') no-repeat;filter:grayscale(1) sepia(1) saturate(2) hue-rotate(350deg) drop-shadow(0 2px 2px rgba(0,0,0,.8))}
 .ds4.edit .stick.left{left:0;top:0;background-position:0 0}
-.ds4.edit .stick.right{left:260px;right:auto;top:0;background-position:-288px 0}
+.ds4.edit .stick.right{left:260px;right:auto;top:0;background-position:0 0}
 .ds4.edit .stick.left.pressed{background-position:-96px 0;filter:grayscale(1) sepia(1) saturate(2) hue-rotate(350deg) drop-shadow(0 0 5px #DCC2A0)}
-.ds4.edit .stick.right.pressed{background-position:-192px 0;filter:grayscale(1) sepia(1) saturate(2) hue-rotate(350deg) drop-shadow(0 0 5px #DCC2A0)}
+.ds4.edit .stick.right.pressed{background-position:-96px 0;filter:grayscale(1) sepia(1) saturate(2) hue-rotate(350deg) drop-shadow(0 0 5px #DCC2A0)}
 .ds4.edit .abxy{position:absolute;width:156px;height:152px;top:160px;left:568px}
 .ds4.edit .button{position:absolute;width:55px;height:55px;background:none;border-radius:50%;box-sizing:border-box}
 .ds4.edit .a{bottom:0;left:51px}.ds4.edit .b{top:49px;right:0}.ds4.edit .x{top:49px;left:0}.ds4.edit .y{left:51px;top:0}
