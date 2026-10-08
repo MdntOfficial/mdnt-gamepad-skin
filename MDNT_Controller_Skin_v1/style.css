@@ -32,3 +32,8 @@
 .ds4.edit .back,.ds4.edit .start{width:28px;height:47px;opacity:0;background:none;border-radius:14px}
 .ds4.edit .back{float:left}.ds4.edit .start{float:right}
 .ds4.edit .back.pressed,.ds4.edit .start.pressed{opacity:1;background:rgba(241,213,171,.35);box-shadow:0 0 7px rgba(255,224,183,.8)}
+
+/* MDNT analog alignment override: explicit coordinates, bypass GPV default stick rules */
+.controller.ds4.edit .sticks { left:221px !important; top:290px !important; width:354px !important; height:105px !important; }
+.controller.ds4.edit .sticks .stick.left { left:0px !important; right:auto !important; top:0px !important; }
+.controller.ds4.edit .sticks .stick.right { left:260px !important; right:auto !important; top:0px !important; }
