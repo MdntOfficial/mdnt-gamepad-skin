@@ -1,5 +1,5 @@
 /* MDNT Champagne Pearl v2 - 806x599 GPV DS4 EDIT */
-.controller.ds4.edit{width:806px;height:599px;position:relative;background:url('shell-champagne-pearl-v2.png?v=2') center center/806px 599px no-repeat;top:300px!important;filter:drop-shadow(0 7px 8px rgba(0,0,0,.6))}
+.controller.ds4.edit{width:806px;height:599px;position:relative;background-image:url('shell-champagne-pearl-v2.png?v=2'),radial-gradient(circle 47px at 270px 332px,#0a0908 0%,#050505 94%,transparent 100%),radial-gradient(circle 47px at 534px 332px,#0a0908 0%,#050505 94%,transparent 100%);background-position:center center,0 0,0 0;background-size:806px 599px,806px 599px,806px 599px;background-repeat:no-repeat;top:300px!important;filter:drop-shadow(0 7px 8px rgba(0,0,0,.6))}
 .ds4.edit.disconnected div{display:none}
 /* Analog wells in v2 shell: centers (273,337) and (533,337) */
 .ds4.edit .sticks{position:absolute;width:354px;height:105px;left:226px;top:290px}
@@ -45,3 +45,5 @@
 /* Fill transparent analog cutouts so white browser backgrounds cannot show through. */
 .controller.ds4.edit .sticks .stick::before{content:'';position:absolute;left:4px;top:4px;width:86px;height:86px;border-radius:50%;background:radial-gradient(circle,#0b0a09 0%,#080706 72%,#020202 100%);box-shadow:inset 0 0 12px #000;pointer-events:none}
 .controller.ds4.edit .sticks .stick::after{z-index:1}
+
+/* Opaque backing sits BELOW transparent shell cutouts; cap pseudo-elements remain above it. */
