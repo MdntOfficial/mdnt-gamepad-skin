@@ -224,3 +224,6 @@
 }
 .ds4.edit .stick.left.pressed { filter: brightness(1.15) drop-shadow(0 0 4px rgba(33,212,232,.6)); }
 .ds4.edit .stick.right.pressed { filter: brightness(1.15) drop-shadow(0 0 4px rgba(217,70,239,.6)); }
+
+/* Analog cap sizing only: scale around each stick center, preserve positions and all other controls. */
+.controller.ds4.edit .stick.left, .controller.ds4.edit .stick.right { transform:scale(1.25) !important; transform-origin:47px 47px !important; }
